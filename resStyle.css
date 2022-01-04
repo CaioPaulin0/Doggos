@@ -1,0 +1,63 @@
+@media (max-width: 959px){
+    body{
+        background-color: #f6f6f3;
+    }
+
+    .leftSide{
+        width: 100%;
+        height: max-content;
+    }
+
+    .leftSideCont{
+        height: max-content;
+        margin: 0 auto;
+        margin-top: 35px;
+        width: 80%;
+    }
+
+    .logo{
+        display: none;
+        height: max-content;
+    }
+
+    .logoMobile{
+        display: block;
+    }
+
+    .logoMobile img{
+        width: 100%;
+        height: auto;
+    }
+
+    .login{
+        margin: 0 auto;
+    }
+
+    .buttons div{
+        font-size: 20px;
+    }
+
+    #logado{
+        width: 100%;
+    }
+
+    #logado span{
+        font-size: 45px;
+    }
+
+    #logado i{
+        font-size: 180px;
+    }
+
+    #signUp{
+        margin-top: 35px;
+    }
+
+    #forgotPassword{
+        margin-top: 35px;
+    }
+
+    .rightSide{
+        display: none;
+    }
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1c03342d6e.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="icon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resStyle.css">
+    <title>Doggos</title>
+</head>
+<body>
+    <div class="leftSide">
+        <div class="logoMobile">
+            <img src="img/mobile.jpg">
+        </div>
+
+        <div class="leftSideCont">
+
+            <div class="leftSideContName" id="LeftSideLogin">
+
+                <div class="logo">
+                    <img src="img/logo.png">
+                </div>
+
+                <div id="logado">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+
+                <div id="signUp">
+                    <div id=signUpName>
+                        <span>Name</span>
+                        <input type="text" placeholder="Your name" id="sname">
+                    </div>
+                    <div id=signUpEmail>
+                        <span>Email</span>
+                        <input type="text" placeholder="Your email" id="semail">
+                    </div>
+                    <div id=signUpContact>
+                        <span>Contact</span>
+                        <input type="text" placeholder="Your contact number" id="scontact">
+                    </div>
+                    <div id=signUpPassword>
+                        <span>Password</span>
+                        <input type="text" placeholder="Password" id="spassword">
+                    </div>
+                    <button onclick="createAccount()">Create account</button>
+                </div>
+
+                <div id="forgotPassword">
+                    <strong>Forgot password</strong>
+                    <div id="forgotContainer">
+                        <span>Email</span>
+                        <input type="text" placeholder="Your email for contact" id="forgotEmail">
+                    </div>
+                    <button onclick="submit()">Submit</button>
+                </div>
+
+                <div class="login" id="hlogin" >
+                    <div id="hloginemail">
+                        <i class="fas fa-user-friends"><span>Email Address</span></i>
+                        <input type="text" placeholder="Email" id="email">
+                    </div>
+
+                    <div id="hloginpassword" style= "margin-bottom: 20px;">
+                        <i class="fas fa-unlock-alt"><span>Password</span></i>
+                        <input type="text" placeholder="password" id="password">
+                    </div>
+                    <span style="color: #6AB5C9; font-size: 18px; margin:0; cursor: pointer;" onclick="forgot()" >Forgot password?</span>
+                </div>
+
+                <div class="buttons" id="botoes">
+                    <button onclick="enviar()" >Login</button>
+                    <div>
+                        <span>or</span>
+                        <br>
+                        <span>Login with</span>
+                    </div>
+                    <div class="buttonsMidia">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-google-plus"></i>
+                    </div>
+                    <div class="signUp">
+                        <span>Don't have an account? <strong onclick="signUp()">Sign up</strong></span>
+                        
+
+                    </div>
+                </div>
+    
+                <strong onclick="backlogin()" id="bLogin">Back to login</strong>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="rightSide">
+        <div class="img">
+            <img src="img/french-bulldog-dog-breeds-white-polka-dot-black-marble.jpg">
+
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>

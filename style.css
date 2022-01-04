@@ -1,0 +1,285 @@
+body {
+    background-color: #6AB5C9;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#bLogin{
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+    margin: 10px 0;
+}
+
+.logoMobile{
+    display: none;
+}
+
+.leftSide{
+    width: 50%;
+    height: 969px;
+    float: left;
+    background-color: #f6f6f3;
+}
+
+.leftSideCont{
+    width: 70%;
+    height: 750px;
+    margin: 100px auto;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.login{
+    margin:auto;
+    margin-top: 50px;
+    width: 80%;
+    height: max-content;
+}
+
+.login div{
+    display: grid;
+    height: 80px;  
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6AB5C9;
+}
+
+.login span{
+    color: #b3b3b3;
+    margin-left: 10px;
+    cursor: default;
+}
+
+.login i{
+    color: #6AB5C9;
+}
+
+.login input{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    color: #6c6c6c;
+    margin: auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.login input:active{
+    border: none;
+}
+
+.login input:active{
+    border: none;
+}
+
+.buttons{
+    width: 80%;
+    height: 200px;
+    margin: 20px auto;
+    cursor: default;
+}
+
+.buttons button{
+    width: 100%;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #6AB5C9;
+    color: #f7f7f7;
+    margin: 0;
+}
+
+.buttons button:hover{
+    background-color: #366E7D;
+    cursor: pointer;
+}
+
+.buttons div{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 10px ;
+}
+
+.buttonsMidia{
+    width: max-content;
+    margin: 10px auto;
+}
+
+.buttonsMidia i{
+    font-size: 50px;
+    color: #366E7D;
+    cursor: pointer;
+}
+
+.signUp strong:hover{
+    cursor: pointer;
+    color: #366E7D;
+} 
+
+#signUp {
+    margin:auto;
+    margin-top: 50px;
+    width: 80%;
+    height: max-content;
+    display: none;
+}
+
+#signUp div{
+    display: grid;
+    height: 80px;  
+    font-size: 20px;
+    margin: 10px 0;
+    border-bottom: 2px solid #6AB5C9;
+}
+
+#signUp span{
+    color: #b3b3b3;
+    cursor: default;
+}
+
+#signUp i{
+    color: #6AB5C9;
+}
+
+#signUp input{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    color: #6c6c6c;
+    margin: auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#signUp button{
+    width: 100%;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #6AB5C9;
+    color: #f7f7f7;
+    margin: 10px 0;
+}
+
+#signUp button:hover{
+    background-color: #366E7D;
+    cursor: pointer;
+}
+
+#forgotPassword {
+    margin:auto;
+    margin-top: 50px;
+    width: 80%;
+    height: max-content;
+    display: none;
+}
+
+#forgotPassword strong{
+    font-size: 37px;
+    color: #6AB5C9;
+    cursor: default;
+}
+
+#forgotPassword div{
+    display: grid;
+    height: 80px;  
+    font-size: 20px;
+    margin: 10px 0;
+    border-bottom: 2px solid #6AB5C9;
+}
+
+#forgotPassword span{
+    color: #b3b3b3;
+    cursor: default;
+}
+
+#forgotPassword i{
+    color: #6AB5C9;
+}
+
+#forgotPassword input{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    color: #6c6c6c;
+    margin: auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#forgotPassword button{
+    width: 100%;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #6AB5C9;
+    color: #f7f7f7;
+    margin: 10px 0;
+}
+
+#forgotPassword button:hover{
+    background-color: #366E7D;
+    cursor: pointer;
+}
+
+#leftSideSignUp{
+    background-color: rgb(131, 40, 40);
+    height: 665px;
+    width: 672px;
+    
+}
+
+#logado{
+    width: 80%;
+    height: min-content;
+    margin:  auto;
+    display: none;
+    
+}
+
+#logado i{
+    font-size: 250px;
+    color: #6AB5C9;
+    margin: 15px auto;
+}
+
+#logado span{
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+    color: #366E7D;
+}
+/* */
+
+.rightSide{
+    width: 50%;
+    height: 969px;
+    float: right;
+    margin: 0;
+}
+
+.img{
+    width: 90%;
+    height: max-content;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img img{
+    width: 100%;
+    height: auto;
+    border-radius: 0 15px 15px 0;
+    
+}
